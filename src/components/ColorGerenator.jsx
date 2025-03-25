@@ -31,7 +31,7 @@ const ColorGenerator = () => {
 
   return (
     <div>
-      <button onClick={generateColor}>Generar Color</button>
+      <button onClick={generateColor}>Generar el Color</button>
       
     </div>
   );

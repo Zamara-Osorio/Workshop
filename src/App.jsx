@@ -8,26 +8,26 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>React Components</h1>
+      <h1>Componentes de React</h1>
       
       <div className="components-grid">
         <section className="component-card">
-          <h2>1. Dark Mode Toggle</h2>
+          <h2>1. Modo oscuro</h2>
           <DarkMode/>
         </section>
 
         <section className="component-card">
-          <h2>2. Like & Dislike</h2>
+          <h2>2. Me gusta  y No me gusta</h2>
           <LikeDislike />
         </section>
 
         <section className="component-card">
-          <h2>3. Color Generator</h2>
+          <h2>3. Generador de colores</h2>
           <ColorGerenator />
         </section>
 
         <section className="component-card">
-          <h2>4. Timer</h2>
+          <h2>4. Tiempo</h2>
           <Timer />
         </section>
       </div>

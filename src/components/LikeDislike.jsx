@@ -7,10 +7,10 @@ const LikeDislike = () => {
   return (
     <div>
       <button onClick={() => setLikes(likes + 1)}>
-         Like ({likes})
+         Me gusta ({likes})
       </button>
       <button onClick={() => setDislikes(dislikes + 1)}>
-         Dislike ({dislikes})
+         No me gusta ({dislikes})
       </button>
     </div>
   );
